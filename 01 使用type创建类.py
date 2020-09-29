@@ -21,10 +21,12 @@ test.num2
 def func1(self):
     print(self.num)
 
+
 @staticmethod  # 添加静态方法
 def func2():
     print("静态方法!")
     return "静态方法返回值"
+
 
 @classmethod    # 添加类方法
 def func3(cls):

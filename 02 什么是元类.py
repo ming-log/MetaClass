@@ -26,6 +26,6 @@ e.__class__.__class__
 def f(): pass
 f.__class__
 f.__class__.__class__
-class g: pass
+class G(object): pass
 g.__class__
 g.__class__.__class__

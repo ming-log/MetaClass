@@ -18,7 +18,7 @@ def upper_all_attr(class_name, class_parent, class_attr):
     return type(class_name, class_parent, class_attr)
 
 
-class func1(object, metaclass=upper_all_attr):
+class func1(object, metaclass=upper_all_attr):  # metaclass：指定元类， 默认为type
     age = 18
     gender = "男"
 
